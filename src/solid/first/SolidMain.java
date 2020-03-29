@@ -1,10 +1,10 @@
-package com.company;
+package solid.first;
 
 // Shape class is open for extension but closed for modification (OCP)
 // Substitute what can be fully extended (Liskov's Substitution principle) - Shape class fully extended by Rectangle/Square class
 // DIP - classes should depend on abstractions and not concretions
 
-abstract class Shape {
+abstract class Shape implements PDFPrintable{
     public abstract double area();
 }
 
@@ -18,7 +18,7 @@ interface WordPrintable{
 }
 
 //Instead of single Shape class to calculate areas of all shapes, the respective classes- Rectangle and Square can do it (SRP)
-class Rectangle extends Shape implements PDFPrintable{
+class Rectangle extends Shape {
 
     int height;
     int width;
@@ -40,7 +40,7 @@ class Rectangle extends Shape implements PDFPrintable{
 
 }
 
-class Square extends Shape implements PDFPrintable{
+class Square extends Shape {
 
     int side;
 
@@ -61,11 +61,11 @@ class Square extends Shape implements PDFPrintable{
 }
 
 
-public class Main {
+public class SolidMain {
 
     public static void main(String[] args) {
 
-        Square square = new Square(4);
+        Shape square = new Square(4);
         System.out.println("Area: "+square.area());
         square.printPDF();
 

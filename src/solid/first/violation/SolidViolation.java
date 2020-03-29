@@ -1,3 +1,4 @@
+package solid.first.violation;
 
 //ISP Violation
 interface Printable{

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a5fa78-bd6a-4cf8-b89d-3a2a254e833a" name="Default Changelist" comment="" />
+    <list default="true" id="65a5fa78-bd6a-4cf8-b89d-3a2a254e833a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/second/violation/SolidViolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/PDFPrintable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidDemo/com/company/WordPrintable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidViolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/first/violation/SolidViolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/first/SolidMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +27,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZZ80LznpQ8UPHzGVdB918NIru6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.SolidDemoMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="SolidDemo" />
@@ -31,8 +51,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SolidDemo" />
+      <module name="SolidDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolidDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.second.SolidDemoMain" />
+      <module name="SolidDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SolidDemoMain" />
+      <item itemvalue="Application.SolidDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolidDemoMain" />
+        <item itemvalue="Application.SolidDemo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -51,13 +92,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585038575369">
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585154350426">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1585038575369" />
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1585154350426" />
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585054173611">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1585054173611" />
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585131721890">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1585131721890" />
     <state x="824" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585041923786">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="824" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585041923786" />
+    <state width="604" height="166" key="GridCell.Tab.0.bottom" timestamp="1585491550836">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="166" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585491550836" />
+    <state width="604" height="166" key="GridCell.Tab.0.center" timestamp="1585491550835">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="166" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585491550835" />
+    <state width="604" height="166" key="GridCell.Tab.0.left" timestamp="1585491550835">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="166" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585491550835" />
+    <state width="604" height="166" key="GridCell.Tab.0.right" timestamp="1585491550836">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="166" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585491550836" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585489844404">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585489844404" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1585227740081">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1585227740081" />
   </component>
 </project>
